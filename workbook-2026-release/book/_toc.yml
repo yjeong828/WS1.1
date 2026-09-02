@@ -1,0 +1,36 @@
+format: jb-book
+root: intro.md
+
+parts:
+- caption: Assignments
+  chapters:
+  - file: weeks/week1.md #BUMP
+    sections:
+    - file: assignments/PA1.1/README.md #BUMP
+      sections:
+      - file: assignments/PA1.1/01_github_account.md
+      - file: assignments/PA1.1/02_enable_hidden_files.md
+      - file: assignments/PA1.1/03_install_conda.md
+      - file: assignments/PA1.1/04_install_VS_code.md
+      - file: assignments/PA1.1/05_install_mude_environment.md #BUMP
+      - file: assignments/PA1.1/06_test.ipynb
+      - file: assignments/PA1.1/07_github_copilot.md
+      - file: assignments/PA1.1/08_install_github_desktop.md
+      - file: assignments/PA1.1/09_setup_file_system.md
+      - file: assignments/PA1.1/10_commit_local.md
+      - file: assignments/PA1.1/11_autograder.md
+      - file: assignments/PA1.1/12_commit_online.md
+      - file: assignments/PA1.1/13_fetch_pull.md
+      - file: assignments/PA1.1/14_install_git.md
+    - file: assignments/WS1.1/README.md
+      sections:
+      - file: assignments/WS1.1/1_create_own_repo.md
+      - file: assignments/WS1.1/2_branching.md
+        sections:
+        - file: assignments/WS1.1/crossword.md
+      - file: assignments/WS1.1/3_ice_classic.md
+- caption: Miscellaneous
+  chapters:
+  - file: changelog.md
+  - file: credits.md
+  - external: https://github.com/TUDelft-MUDE/teacher/blob/main/book/team/topics_people.md #BUMP
